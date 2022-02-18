@@ -14,7 +14,7 @@ let streets = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/t
 streets.addTo(map);
 
 // Accessing the airport GeoJSON URL
-let airportData = "https://raw.githubusercontent.com/<bhargavi-ng>/Mapping_Earthquakes/main/majorAirports.json";
+let airportData = "https://raw.githubusercontent.com/Bhargavi-ng/Mapping_Earthquakes/Mapping_GeoJSON_Points/majorAirports.json";
 
 
 // Grabbing our GeoJSON data.
